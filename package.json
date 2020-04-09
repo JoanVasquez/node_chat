@@ -1,0 +1,26 @@
+{
+  "name": "node_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/server",
+    "dev": "nodemon server/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "13.12.0"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "chat",
+    "socket",
+    "io"
+  ],
+  "author": "Joan Vasquez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
